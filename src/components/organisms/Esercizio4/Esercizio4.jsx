@@ -3,7 +3,7 @@ import React from "react";
 import "./esercizio4.scss";
 
 import Container from "../../atoms/Container/Container";
-import Button from "../../atoms/button/Button";
+import Button from "../../atoms/Button/Button";
 import Card from "../../molecules/Card/Card";
 
 const Esercizio4 = (props) => {

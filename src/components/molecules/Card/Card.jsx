@@ -2,9 +2,9 @@ import React from "react";
 
 import "./card.scss";
 
-import Title from "../../atoms/title/Title";
-import Badge from "../../atoms/badge/Badge";
-import Link from "../../atoms/link/Link";
+import Title from "../../atoms/Title/Title";
+import Badge from "../../atoms/Badge/Badge";
+import Link from "../../atoms/Link/Link";
 
 const Card = () => {
   return (
@@ -30,7 +30,7 @@ const Card = () => {
                 expedita iste delectus laborum?
               </p>
             </section>
-            <Link tag="span" text="Vedi" className="c-card__link" />
+            <Link tag="span" text="Vedi" icon="arrow-right" />
           </footer>
         </div>
       </a>

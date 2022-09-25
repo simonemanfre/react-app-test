@@ -2,8 +2,10 @@ import React from "react";
 
 import "./button.scss";
 
+import Icon from "../Icon/Icon";
+
 const Button = (props) => {
-  const { url, text, secondary, className } = props;
+  const { url, text, icon, secondary, className } = props;
 
   let classNames = [];
   className && classNames.push(className);
@@ -13,6 +15,7 @@ const Button = (props) => {
   return (
     <a href={url} className={classNames.join(" ")}>
       {text}
+      {icon && <Icon icon={icon} />}
     </a>
   );
 };

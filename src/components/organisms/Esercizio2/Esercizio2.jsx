@@ -3,7 +3,7 @@ import React from "react";
 import "./esercizio2.scss";
 
 import Container from "../../atoms/Container/Container";
-import Title from "../../atoms/title/Title";
+import Title from "../../atoms/Title/Title";
 import Tile from "../../molecules/Tile/Tile";
 
 const Esercizio4 = (props) => {

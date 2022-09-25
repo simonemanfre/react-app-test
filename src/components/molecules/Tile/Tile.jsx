@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./tile.scss";
-import Title from "../../atoms/title/Title";
-import Link from "../../atoms/link/Link";
+import Title from "../../atoms/Title/Title";
+import Link from "../../atoms/Link/Link";
 
 const Tile = (props) => {
   return (
@@ -21,7 +21,7 @@ const Tile = (props) => {
         </p>
       </section>
       <footer className="c-tile__footer">
-        <Link url="#" text="Approfondisci" />
+        <Link url="#" text="Approfondisci" icon="arrow-right" />
       </footer>
     </li>
   );

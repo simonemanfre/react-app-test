@@ -2,8 +2,23 @@
 @use "../../utilities/fonts";
 
 .c-link {
+  display: flex;
+  align-items: center;
   color: fonts.$text-color;
   font-family: fonts.$text-font-family;
   font-size: 18px;
   line-height: fonts.$title-lineheight;
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    transition: 0.3s ease;
+    fill: colors.$primary;
+  }
+  &:hover {
+    .icon {
+      margin-left: 24px;
+    }
+  }
 }

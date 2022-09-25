@@ -42,17 +42,23 @@
   }
   &__footer {
     margin-top: 24px;
-  }
-  &__link {
-    display: block;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 24px;
-    margin-left: auto;
+
+    .c-link {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 24px;
+      margin-left: auto;
+
+      .icon {
+        width: 14px;
+        height: 14px;
+        fill: #fff;
+      }
+    }
   }
 }
 

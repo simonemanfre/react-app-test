@@ -3,8 +3,8 @@ import React from "react";
 import "./esercizio1.scss";
 
 import Container from "../../atoms/Container/Container";
-import Title from "../../atoms/title/Title";
-import Button from "../../atoms/button/Button";
+import Title from "../../atoms/Title/Title";
+import Button from "../../atoms/Button/Button";
 
 const Esercizio1 = (props) => {
   return (
@@ -22,7 +22,12 @@ const Esercizio1 = (props) => {
           </p>
         </section>
 
-        <Button url="#" className="c-hero__button" text="Approfondisci" />
+        <Button
+          url="#"
+          className="c-hero__button"
+          text="Approfondisci"
+          icon="arrow-right"
+        />
       </Container>
     </header>
   );

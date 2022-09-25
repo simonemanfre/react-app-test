@@ -2,8 +2,10 @@ import React from "react";
 
 import "./link.scss";
 
+import Icon from "../Icon/Icon";
+
 const Link = (props) => {
-  const { url, text, tag, className } = props;
+  const { tag, url, text, icon, className } = props;
 
   const Tag = tag || "a";
 
@@ -14,6 +16,7 @@ const Link = (props) => {
   return (
     <Tag href={url} className={classNames.join(" ")}>
       {text}
+      {icon && <Icon icon={icon} />}
     </Tag>
   );
 };
