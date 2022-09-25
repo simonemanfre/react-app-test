@@ -30,7 +30,7 @@ const Card = () => {
                 expedita iste delectus laborum?
               </p>
             </section>
-            <Link tag="span" text="Vedi" icon="arrow-right" />
+            <Link tag="span" text="Vedi" icon="arrow" />
           </footer>
         </div>
       </a>

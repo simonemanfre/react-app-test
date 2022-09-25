@@ -3,7 +3,7 @@
 .c-tile {
   &__header {
     padding: 16px 0;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid colors.$light-grey;
     margin-bottom: 20px;
   }
   &__title {

@@ -21,7 +21,7 @@ const Tile = (props) => {
         </p>
       </section>
       <footer className="c-tile__footer">
-        <Link url="#" text="Approfondisci" icon="arrow-right" />
+        <Link url="#" text="Approfondisci" icon="arrow" />
       </footer>
     </li>
   );

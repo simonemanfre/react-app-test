@@ -26,7 +26,7 @@ const Esercizio1 = (props) => {
           url="#"
           className="c-hero__button"
           text="Approfondisci"
-          icon="arrow-right"
+          icon="arrow"
         />
       </Container>
     </header>
