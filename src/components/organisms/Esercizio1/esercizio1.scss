@@ -1,0 +1,61 @@
+@use "../../utilities/colors";
+
+.c-hero {
+  position: relative;
+  background-image: url("../../../assets/images/hero.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: colors.$primary;
+    opacity: 0.2;
+    mix-blend-mode: overlay;
+  }
+  &__container {
+    position: relative;
+    z-index: 1;
+  }
+  &__title {
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  &__text {
+    color: #fff;
+    font-size: 18px;
+  }
+  &__button {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .c-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    &__title {
+      margin-bottom: 32px;
+    }
+    &__text {
+      max-width: 55%;
+      font-size: 20px;
+    }
+    &__button {
+      margin-top: 32px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .c-hero {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+}
