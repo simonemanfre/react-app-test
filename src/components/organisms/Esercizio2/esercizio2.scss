@@ -1,17 +1,17 @@
-.c-cards {
+.c-tiles {
   margin: 60px 0;
 }
-.c-cards__content {
+.c-tiles__content {
   display: grid;
   gap: 24px;
 }
-.c-cards__footer {
-  text-align: center;
-  margin-top: 40px;
+.c-tiles__header {
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  .c-cards__content {
+  .c-tiles__content {
+    gap: 40px 32px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
