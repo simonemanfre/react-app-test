@@ -1,0 +1,113 @@
+@use "./components/utilities/fonts";
+
+body {
+  color: fonts.$text-color;
+  font-family: fonts.$text-font-family;
+  font-size: fonts.$text-mobile-size;
+  line-height: fonts.$text-lineheight;
+  font-weight: 400;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+a,
+a:hover {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+figure {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+button,
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+button,
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+@mixin title {
+  color: fonts.$title-color;
+  font-family: fonts.$title-font-family;
+  line-height: fonts.$title-lineheight;
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.t-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include title;
+}
+.t-title--1 {
+  font-size: fonts.$title-mobile-size1;
+}
+.t-title--2 {
+  font-size: fonts.$title-mobile-size2;
+}
+.t-title--3 {
+  font-size: fonts.$title-mobile-size3;
+}
+.t-title--4 {
+  font-size: fonts.$title-mobile-size4;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: fonts.$text-desktop-size;
+  }
+  .t-title--1 {
+    font-size: fonts.$title-desktop-size1;
+  }
+  .t-title--2 {
+    font-size: fonts.$title-desktop-size2;
+  }
+  .t-title--3 {
+    font-size: fonts.$title-desktop-size3;
+  }
+  .t-title--4 {
+    font-size: fonts.$title-desktop-size4;
+  }
+}
