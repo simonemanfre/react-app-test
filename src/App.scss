@@ -57,6 +57,8 @@ input[type="submit"] {
   -moz-appearance: none;
   appearance: none;
 }
+
+/*TITLE*/
 @mixin title {
   color: fonts.$title-color;
   font-family: fonts.$title-font-family;
@@ -94,10 +96,22 @@ h6 {
   text-transform: uppercase;
 }
 
+/*LAYOUT*/
+.l-container {
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 1024px) {
   body {
     font-size: fonts.$text-desktop-size;
   }
+
+  /*TITLE*/
   .t-title--1 {
     font-size: fonts.$title-desktop-size1;
   }
@@ -109,5 +123,18 @@ h6 {
   }
   .t-title--4 {
     font-size: fonts.$title-desktop-size4;
+  }
+
+  /*LAYOUT*/
+  .l-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .l-container {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }

@@ -1,5 +1,6 @@
 import "./App.scss";
 
+import Container from "./components/atoms/Container/Container";
 import Title from "./components/atoms/title/Title";
 import Button from "./components/atoms/button/Button";
 import Link from "./components/atoms/link/Link";
@@ -10,7 +11,7 @@ import Card from "./components/molecules/Card/Card";
 
 function App() {
   return (
-    <div className="App">
+    <Container tag="div">
       <Title tag="h1" size="1">
         Infrastruttura e tecnologia dietro alle emozioni
       </Title>
@@ -29,7 +30,7 @@ function App() {
       <Badge text="30 marzo 2022" />
       <Tile />
       <Card />
-    </div>
+    </Container>
   );
 }
 
