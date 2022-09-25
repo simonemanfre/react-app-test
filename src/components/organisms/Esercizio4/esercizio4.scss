@@ -1,0 +1,14 @@
+.c-cards__content {
+  display: grid;
+  gap: 24px;
+}
+.c-cards__footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .c-cards__content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
