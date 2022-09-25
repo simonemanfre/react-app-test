@@ -1,0 +1,15 @@
+@use "../../utilities/colors";
+
+.c-tile {
+  &__header {
+    padding: 16px 0;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 20px;
+  }
+  &__title {
+    color: colors.$primary;
+  }
+  &__footer {
+    margin-top: 20px;
+  }
+}

@@ -5,6 +5,9 @@ import Button from "./components/atoms/button/Button";
 import Link from "./components/atoms/link/Link";
 import Badge from "./components/atoms/badge/Badge";
 
+import Tile from "./components/molecules/Tile/Tile";
+import Card from "./components/molecules/Card/Card";
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +27,8 @@ function App() {
       <Button secondary url="#" text="Vedi tutto" />
       <Link url="#" text="Approfondisci" />
       <Badge text="30 marzo 2022" />
+      <Tile />
+      <Card />
     </div>
   );
 }
