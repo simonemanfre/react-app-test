@@ -3,6 +3,7 @@ import "./App.scss";
 import Title from "./components/atoms/title/Title";
 import Button from "./components/atoms/button/Button";
 import Link from "./components/atoms/link/Link";
+import Badge from "./components/atoms/badge/Badge";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Button url="#" text="Approfondisci" />
       <Button secondary url="#" text="Vedi tutto" />
       <Link url="#" text="Approfondisci" />
+      <Badge text="30 marzo 2022" />
     </div>
   );
 }
