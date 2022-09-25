@@ -1,6 +1,8 @@
 import "./App.scss";
 
 import Title from "./components/atoms/title/Title";
+import Button from "./components/atoms/button/Button";
+import Link from "./components/atoms/link/Link";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
       <Title tag="h4" size="4">
         Infrastruttura e tecnologia dietro alle emozioni
       </Title>
+      <Button url="#" text="Approfondisci" />
+      <Button secondary url="#" text="Vedi tutto" />
+      <Link url="#" text="Approfondisci" />
     </div>
   );
 }

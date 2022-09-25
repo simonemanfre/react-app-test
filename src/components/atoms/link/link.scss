@@ -1,0 +1,9 @@
+@use "../../utilities/colors";
+@use "../../utilities/fonts";
+
+.c-link {
+  color: fonts.$text-color;
+  font-family: fonts.$text-font-family;
+  font-size: 18px;
+  line-height: fonts.$title-lineheight;
+}

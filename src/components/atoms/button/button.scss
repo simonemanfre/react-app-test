@@ -1,0 +1,30 @@
+@use "../../utilities/colors";
+@use "../../utilities/fonts";
+
+.c-button {
+  display: inline-flex;
+  color: #fff;
+  background-color: colors.$primary;
+  font-family: fonts.$text-font-family;
+  font-size: 16px;
+  line-height: fonts.$title-lineheight;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: none;
+  border: 1px solid colors.$primary;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  text-decoration: none;
+
+  &--secondary {
+    color: #000;
+    background-color: colors.$secondary;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: none;
+    border-color: colors.$secondary;
+    border-radius: 4px;
+  }
+}
