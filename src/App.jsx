@@ -1,19 +1,21 @@
 import "./App.scss";
 
+import home from "./data/data.json";
+
 import Icons from "./components/atoms/Icons/Icons";
-import Esercizio1 from "./components/organisms/Esercizio1/Esercizio1";
-import Esercizio2 from "./components/organisms/Esercizio2/Esercizio2";
+import Hero from "./components/organisms/Hero/Hero";
+import Tiles from "./components/organisms/Tiles/Tiles";
 import Accordion from "./components/organisms/Accordion/Accordion";
-import Esercizio4 from "./components/organisms/Esercizio4/Esercizio4";
+import Cards from "./components/organisms/Cards/Cards";
 
 function App() {
   return (
     <>
       <Icons />
-      <Esercizio1 />
-      <Esercizio2 />
-      <Accordion />
-      <Esercizio4 />
+      <Hero data={home.hero} />
+      <Tiles data={home.tiles} />
+      <Accordion data={home.accordion} />
+      <Cards data={home.cards} />
     </>
   );
 }

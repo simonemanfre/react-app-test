@@ -32,9 +32,6 @@
       transform: rotate(90deg);
       fill: colors.$primary;
     }
-    &:hover .icon {
-      transform: rotate(0);
-    }
   }
   &__title {
     margin: 0 !important;
@@ -61,5 +58,11 @@
     .c-accordion-item__content {
       display: block;
     }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .c-accordion-item__header:hover .icon {
+    transform: rotate(0);
   }
 }

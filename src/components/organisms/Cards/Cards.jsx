@@ -1,18 +1,18 @@
 import React from "react";
 
-import "./esercizio4.scss";
+import "./cards.scss";
 
 import Container from "../../atoms/Container/Container";
 import Button from "../../atoms/Button/Button";
 import Card from "../../molecules/Card/Card";
 
-const Esercizio4 = (props) => {
+const Cards = ({ data }) => {
   return (
     <section className="c-cards">
       <Container tag="ul" className="c-cards__content">
-        <Card />
-        <Card />
-        <Card />
+        {data.map((item, index) => (
+          <Card key={index} item={item} />
+        ))}
       </Container>
 
       <footer className="c-cards__footer l-container">
@@ -22,4 +22,4 @@ const Esercizio4 = (props) => {
   );
 };
 
-export default Esercizio4;
+export default Cards;

@@ -1,5 +1,5 @@
 .c-cards {
-  margin: 60px 0;
+  margin: 40px 0;
 }
 .c-cards__content {
   display: grid;
@@ -11,6 +11,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .c-cards {
+    margin: 80px 0;
+  }
   .c-cards__content {
     grid-template-columns: 1fr 1fr 1fr;
   }

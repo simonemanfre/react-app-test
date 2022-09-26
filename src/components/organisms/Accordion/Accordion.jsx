@@ -1,12 +1,10 @@
 import React from "react";
 import { useState } from "react";
 
-import items from "../../../data/esercizio3.json";
-
 import Container from "../../atoms/Container/Container";
 import AccordionItem from "../../molecules/AccordionItem/AcordionItem";
 
-function Accordion(props) {
+function Accordion({ data }) {
   const [active, setActive] = useState("0");
 
   const handleToggle = (index) => {
@@ -19,7 +17,7 @@ function Accordion(props) {
   return (
     <Container>
       <ul className="c-accordion">
-        {items.map((item, index) => (
+        {data.map((item, index) => (
           <AccordionItem
             key={index}
             item={item}

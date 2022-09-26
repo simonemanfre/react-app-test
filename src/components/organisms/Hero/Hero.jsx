@@ -1,31 +1,27 @@
 import React from "react";
 
-import "./esercizio1.scss";
+import "./hero.scss";
 
 import Container from "../../atoms/Container/Container";
 import Title from "../../atoms/Title/Title";
 import Button from "../../atoms/Button/Button";
 
-const Esercizio1 = (props) => {
+const Hero = ({ data }) => {
   return (
     <header className="c-hero">
       <Container className="c-hero__container">
         <Title tag="h1" size="1" className="c-hero__title">
-          Lorem ipsum dolor sit amet.
+          {data.title}
         </Title>
 
         <section className="c-hero__text">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
-            eaque repellat quae voluptatibus dignissimos accusamus dolor nisi
-            iure facilis doloribus!
-          </p>
+          <p>{data.subtitle}</p>
         </section>
 
         <Button
-          url="#"
+          url={data.button.url}
           className="c-hero__button"
-          text="Approfondisci"
+          text={data.button.text}
           icon="arrow"
         />
       </Container>
@@ -33,4 +29,4 @@ const Esercizio1 = (props) => {
   );
 };
 
-export default Esercizio1;
+export default Hero;

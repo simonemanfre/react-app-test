@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Infrastruttura e tecnologia dietro alle emozioni",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
+    "button": {
+      "url": "#",
+      "text": "Approfondisci"
+    }
+  },
+  "tiles": {
+    "title": "I nostri valori",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea soluta fugiat illum quis unde architecto quos consequuntur. Fugiat maxime inventore est? Possimus adipisci nobis ratione, earum exercitationem non doloremque?",
+    "items": [
+      {
+        "title": "Impegno per la comunità",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dignissimos non quia, excepturi earum molestias nobis adipisci voluptatum eum? Accusantium!",
+        "url": "#"
+      },
+      {
+        "title": "Attenzione per l'ambiente",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci praesentium quod quis magni corporis dolorem excepturi sapiente qui! Pariatur excepturi aperiam voluptatum reprehenderit vitae dolorum, suscipit, iusto sequi fugit id rem. Commodi rem suscipit consequatur inventore quasi obcaecati tempora.",
+        "url": "#"
+      },
+      {
+        "title": "Qualità",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dignissimos non quia, excepturi earum molestias nobis adipisci voluptatum eum? Accusantium!",
+        "url": "#"
+      },
+      {
+        "title": "Sicurezza",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam modi accusamus commodi odio aliquam debitis quae voluptas illo? Repellat quisquam obcaecati voluptatum similique quasi eius atque ab dicta molestias necessitatibus.",
+        "url": "#"
+      },
+      {
+        "title": "Valorizzazione delle persone",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloribus libero at non, in fuga temporibus incidunt facere exercitationem molestias reiciendis eaque animi quas eos numquam? Aperiam exercitationem quibusdam quaerat debitis nihil quia necessitatibus sint.",
+        "url": "#"
+      },
+      {
+        "title": "Innovazione",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae doloremque, laudantium reprehenderit totam illo itaque. Mollitia, sapiente. Rerum consectetur fugit aliquid dignissimos omnis, reprehenderit et adipisci velit temporibus, molestiae, officiis facere! Quisquam dolor non culpa, qui doloribus facilis pariatur quam vel earum illo, similique autem, debitis tempore! Harum, nemo id.",
+        "url": "#"
+      }
+    ]
+  },
+  "accordion": [
+    {
+      "title": "Mauro Bianchi",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum delectus magnam quidem corporis nostrum aspernatur ducimus omnis odit voluptatem temporibus aut illo eos repellendus iste sint iusto magni nobis, fugit, deleniti, sapiente rem est autem. Dignissimos commodi recusandae rerum nemo optio, repellat placeat atque illum, est fugit, hic neque."
+    },
+    {
+      "title": "Paolo Rossi",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum delectus magnam quidem corporis nostrum aspernatur ducimus omnis odit voluptatem temporibus aut illo eos repellendus iste sint iusto magni nobis, fugit, deleniti, sapiente rem est autem. Dignissimos commodi recusandae rerum nemo optio, repellat placeat atque illum, est fugit, hic neque."
+    },
+    {
+      "title": "Maria Verdi",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum delectus magnam quidem corporis nostrum aspernatur ducimus omnis odit voluptatem temporibus aut illo eos repellendus iste sint iusto magni nobis, fugit, deleniti, sapiente rem est autem. Dignissimos commodi recusandae rerum nemo optio, repellat placeat atque illum, est fugit, hic neque."
+    },
+    {
+      "title": "Annalisa Rossetti",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum delectus magnam quidem corporis nostrum aspernatur ducimus omnis odit voluptatem temporibus aut illo eos repellendus iste sint iusto magni nobis, fugit, deleniti, sapiente rem est autem. Dignissimos commodi recusandae rerum nemo optio, repellat placeat atque illum, est fugit, hic neque."
+    }
+  ],
+  "cards": [
+    {
+      "date": "30 marzo 2022",
+      "title": "Sequestri per un valore di circa 22 milioni di euro",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
+      "url": "#",
+      "image": "assets/images/hero.jpg"
+    },
+    {
+      "date": "29 marzo 2022",
+      "title": "Associazione per delinquere dedita alla frode fiscale",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
+      "url": "#",
+      "image": "assets/images/hero.jpg"
+    },
+    {
+      "date": "18 febbraio 2022",
+      "title": "Incendio di un traghetto nelle acque a nord di Corfù",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
+      "url": "#",
+      "image": "assets/images/hero.jpg"
+    }
+  ]
+}
