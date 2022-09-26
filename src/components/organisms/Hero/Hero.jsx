@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./hero.scss";
+import Symbol from "../../atoms/Symbol/Symbol";
 
 import Container from "../../atoms/Container/Container";
 import Title from "../../atoms/Title/Title";
@@ -25,6 +26,7 @@ const Hero = ({ data }) => {
           icon="arrow"
         />
       </Container>
+      <Symbol></Symbol>
     </header>
   );
 };

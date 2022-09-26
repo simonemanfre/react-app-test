@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./tiles.scss";
+import Symbol from "../../atoms/Symbol/Symbol";
 
 import Container from "../../atoms/Container/Container";
 import Title from "../../atoms/Title/Title";
@@ -14,6 +15,7 @@ const Tiles = ({ data }) => {
           {data.title}
         </Title>
         <p>{data.subtitle}</p>
+        <Symbol></Symbol>
       </header>
       <Container tag="ul" className="c-tiles__content">
         {data.items.map((item, index) => (

@@ -33,6 +33,17 @@
   &__button {
     margin-top: 24px;
   }
+  > svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    max-width: 700px;
+
+    * {
+      fill: colors.$primary;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {

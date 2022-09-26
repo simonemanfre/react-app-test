@@ -2,11 +2,21 @@
 
 .c-tiles {
   background-color: #f9f9f9;
-  padding: 40px 0;
+  padding-bottom: 40px;
   margin-bottom: 40px;
 }
 .c-tiles__header {
+  position: relative;
+  padding-top: 40px;
   margin-bottom: 40px;
+  overflow: hidden;
+
+  svg {
+    position: absolute;
+    top: -16px;
+    right: 20px;
+    width: 100px;
+  }
 }
 .c-tiles__title {
   position: relative;
@@ -30,11 +40,30 @@
 
 @media screen and (min-width: 768px) {
   .c-tiles {
-    padding: 80px 0;
+    padding-bottom: 80px;
     margin-bottom: 80px;
+  }
+  .c-tiles__header {
+    padding-top: 80px;
   }
   .c-tiles__content {
     gap: 40px 32px;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .c-tiles__header {
+    svg {
+      right: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .c-tiles__header {
+    svg {
+      right: 60px;
+    }
   }
 }
