@@ -67,21 +67,21 @@
       "title": "Sequestri per un valore di circa 22 milioni di euro",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
       "url": "#",
-      "image": "assets/images/hero.jpg"
+      "image": "assets/images/card1.jpg"
     },
     {
       "date": "29 marzo 2022",
       "title": "Associazione per delinquere dedita alla frode fiscale",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
       "url": "#",
-      "image": "assets/images/hero.jpg"
+      "image": "assets/images/card2.jpg"
     },
     {
       "date": "18 febbraio 2022",
       "title": "Incendio di un traghetto nelle acque a nord di Corfù",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas fugiat officia deleniti sint, voluptatum ut pariatur. Explicabo, non iure.",
       "url": "#",
-      "image": "assets/images/hero.jpg"
+      "image": "assets/images/card3.jpg"
     }
   ]
 }
